@@ -6,10 +6,10 @@ Este proyecto implementa un clasificador de imágenes basado en CNN para identif
 Este trabajo de titulación representa el esfuerzo de aplicar técnicas de aprendizaje profundo en un problema real de clasificación de imágenes para aves de la Región Andina del Ecuador. Se espera que esta solución pueda servir como base para futuras implementaciones en entornos educativos, científicos o de producción.
 ---
 # Instalación
-1. Clonar el repositorio
-bash
+## 1. Clonar el repositorio
 git clone https://github.com/isaakcueva/ClasificacionAvesCNN.git
 cd ClasificacionAvesCNN
+
 3. Crear entorno virtual
 bashpython -m venv venv
 source venv/bin/activate  # En Windows: venv\Scripts\activate
