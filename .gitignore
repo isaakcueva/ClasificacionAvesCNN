@@ -1,1 +1,51 @@
+# =====================================
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Entornos virtuales
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static_root/
+logs/
+*.log
+
+# Migraciones compiladas
+**/migrations/*.pyc
+**/migrations/*.pyo
+
+# Archivos de configuración local
+*.env
+.env.*
+
+# VS Code
+.vscode/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Modelos y datasets grandes
+*.h5
+*.keras
+*.zip
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Archivos temporales
+*.tmp
+*.bak
 
