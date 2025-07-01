@@ -1,19 +1,22 @@
 # 🦜 Sistema de Aprendizaje Automático para la Clasificación de Aves de la Región Andina del Ecuador
 Sistema de clasificación automática de aves de la región andina del Ecuador usando redes neuronales convolucionales.
 ---
-📋 Descripción
+# Descripción
 Este proyecto implementa un clasificador de imágenes basado en CNN para identificar especies de aves andinas del Ecuador. Incluye modelos entrenados tanto en RGB como en escala de grises, con una aplicación web desarrollada en Django para interacción del usuario.
 Este trabajo de titulación representa el esfuerzo de aplicar técnicas de aprendizaje profundo en un problema real de clasificación de imágenes para aves de la Región Andina del Ecuador. Se espera que esta solución pueda servir como base para futuras implementaciones en entornos educativos, científicos o de producción.
-🚀 Instalación
+---
+# Instalación
 1. Clonar el repositorio
-bashgit clone https://github.com/isaakcueva/ClasificacionAvesCNN.git
+bash
+git clone https://github.com/isaakcueva/ClasificacionAvesCNN.git
 cd ClasificacionAvesCNN
-2. Crear entorno virtual
+3. Crear entorno virtual
 bashpython -m venv venv
 source venv/bin/activate  # En Windows: venv\Scripts\activate
-3. Instalar dependencias
+4. Instalar dependencias
 bashpip install -r requirements.txt
-4. Descargar modelo entrenado
+5. Descargar modelo entrenado
+
 ⚠️ Importante: El modelo .h5 no está incluido por limitaciones de tamaño.
 
 Crear carpeta models/ en la raíz del proyecto
