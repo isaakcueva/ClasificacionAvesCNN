@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+scikit-image
+scipy
+tensorflow
+Pillow
+tabulate
+seaborn
+ipywidgets
+notebook
+django
